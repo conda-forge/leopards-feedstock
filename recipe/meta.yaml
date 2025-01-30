@@ -1,5 +1,5 @@
 {% set name = "leopards" %}
-{% set version = "0.20.1" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/leopards-{{ version }}.tar.gz
-  sha256: 0fa99e01361b10e60af9aa8880dc90ad3dd3d086a55e9de83ffb87449b2b7ef0
+  sha256: 788340cc723cb9b251906d6c122dcd09484fbbe28394c95f9629b1c7701183a6
 
 build:
   noarch: python
@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/mkalioby/leopards/
-  summary: Query list of dictionaries or objects as if you are filtering in DBMS. 
+  summary: Query list of dictionaries or objects as if you are filtering in DBMS.
   license: MIT
   license_file: LICENSE
 
